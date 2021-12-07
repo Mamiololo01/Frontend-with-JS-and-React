@@ -1,2 +1,4 @@
-const name = 'James';
-alert(name);
+if (true) {
+    var name = 'Ryan';
+    alert(name);
+}
