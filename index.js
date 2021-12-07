@@ -1,4 +1,5 @@
 if (true) {
-    var name = 'Ryan';
+    let name = 'Ryan';
+    name = 'pato';
     alert(name);
 }
