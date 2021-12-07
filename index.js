@@ -1,5 +1,5 @@
-var name = 'Sango';
-var height = 8900;
+var country = ['USA', 'Italy', 'Nigria', 'Brazil', 'France'];
+var countryFromAsia = ['Japan', 'Korea'];
 
-var adventureClimbing = { name, height};
-console.log(adventureClimbing);
+var allcountries = [... country, ... countryFromAsia];
+console.log(allcountries);
