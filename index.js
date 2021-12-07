@@ -1,5 +1,11 @@
-var country = ['USA', 'Italy', 'Nigria', 'Brazil', 'France'];
-var countryFromAsia = ['Japan', 'Korea'];
+var day = {
+    breakfast: 'Eba with Egusi',
+    afternoon: 'Turkey with indomie'
+};
 
-var allcountries = [... country, ... countryFromAsia];
-console.log(allcountries);
+var night = {
+    dinner: 'vegetables'
+}
+
+var reservation = {... day, ... night}
+console.log(reservation);
