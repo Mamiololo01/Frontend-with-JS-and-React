@@ -1,2 +1,2 @@
-let [  , firstfood] = ['Rice', 'beans', 'Yam', 'Eba'];
+let [ , , firstfood] = ['Rice', 'beans', 'Yam', 'Eba'];
 console.log(firstfood)
