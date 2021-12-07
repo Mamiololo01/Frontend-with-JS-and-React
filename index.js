@@ -1,5 +1,7 @@
-function greetings(message) {
-    return alert(`${message} everyone`);
-}
+//function greetings(message) {
+//    return alert(`${message} everyone`);
+// }
 
-greetings('Good morning')
+let greetings = (message) => alert(`${message} everyone`);
+
+greetings('Good morning my people!')
