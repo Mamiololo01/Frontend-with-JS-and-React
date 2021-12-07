@@ -1,7 +1,10 @@
-//function greetings(message) {
-//    return alert(`${message} everyone`);
-// }
+let thingsTodo = {
+    morning: 'exercise',
+    afternoon: 'work',
+    evening: 'code',
+    night: ['eat', 'sleep']
+};
 
-let greetings = (message) => alert(`${message} everyone`);
+let { morning, afternoon} = thingsTodo;
 
-greetings('Good morning my people!')
+console.log(morning, afternoon);
