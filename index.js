@@ -1,5 +1,8 @@
-if (true) {
-    let name = 'Ryan';
-    name = 'pato';
-    alert(name);
-}
+let fname = 'John';
+let lname = 'Peter';
+let age = prompt("Guess John's age.....");
+
+// old way
+
+let result = fname + ' ' + lname + ' ' + age + ' years old';
+alert(result)
